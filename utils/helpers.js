@@ -19,4 +19,7 @@ module.exports = {
       return `<span for="img" aria-label="gear">⚙️</span>`;
     }
   },
+  capitalizeFirst: (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  },
 };
